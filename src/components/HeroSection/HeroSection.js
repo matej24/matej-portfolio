@@ -19,7 +19,7 @@ const HeroSection = () => {
             </div>
             <div className="hero__content">
                 <h1 className="hero__h1">Hi, <span className="gradient__text">Welcome </span>:)</h1>
-                <p className="hero_p">"Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live" - John Woods</p>
+                <p className="hero_p"> "Programs must be written for people to read, and only incidentally for machines to execute." - Harold Abelson</p>
                 <div className="hero__btn__wrapper">
                     <Button className="glow-on-hover" to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
                         Get to know me {hover ? <MdArrowForward style={{marginLeft: "8px", fontSize: "20px" }}/> : <MdKeyboardArrowRight style={{marginLeft: "8px", fontSize: "20px" }} />}

@@ -119,3 +119,17 @@
   text-decoration: none;
   padding-top: 12px;
 }
+
+.about__select {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: transparent;
+  color: white;
+  width: 70px;
+  font-weight: bold;
+}
+
+.about__select:focus {
+  background-color: black;
+  color: white;
+}
