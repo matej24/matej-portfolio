@@ -48,7 +48,7 @@ const Navbar = ({toggleSidebar}) => {
                     </li>
                 </ul>
                 <nav className="nav__btn">
-                    <LinkR className="nav__btn__cv" to="/cvmatejsekulic.doc" target="_blank" download>Get My CV</LinkR>
+                    <LinkR className="nav__btn__cv" to="/cvmatejsekuliceng.doc" target="_blank" download>Get My CV</LinkR>
                 </nav>
             </div>
         </nav>

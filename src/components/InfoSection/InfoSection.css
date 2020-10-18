@@ -121,15 +121,23 @@
 }
 
 .about__select {
-  margin-top: 20px;
-  margin-left: 20px;
   background-color: transparent;
   color: white;
   width: 70px;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .about__select:focus {
   background-color: black;
   color: white;
+}
+.about__cvOptions {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 150px;
 }

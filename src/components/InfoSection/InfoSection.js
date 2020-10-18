@@ -51,11 +51,17 @@ const InfoSection = ({ primary, dark, dark2}) => {
                                 <div className="about__btn__wrap">
                                    <LinkR to={dropDownSelected === "hr" ? "/cvmatejsekulic.doc" : "/cvmatejsekuliceng.doc"} target="_blank" download className="glow-on-hover button__download"  dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>Download my CV</LinkR>
                                 </div>
-                                <select className="about__select" value={dropDownSelected} onChange={e => setDropDownSelected(e.target.value)}>
+                                <div className="about__cvOptions">
+                                    <p >
+                                        Choose CV language:
+                                    </p>
+                                    <select className="about__select" value={dropDownSelected} onChange={e => setDropDownSelected(e.target.value)}>
                                     {dropdownOptions.map(opt => (
                                         <option key={Math.random()} value={opt.value}>{opt.label}</option>
                                     ))}
                                 </select>
+                                </div>
+                               
                             </div>
                         </div>
                         <div className="about__col2">
