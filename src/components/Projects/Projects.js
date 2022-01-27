@@ -12,7 +12,7 @@ const Services = () => {
                 <div className="projects__card">
                     <img className="projects__icon" src={Icon1} alt="IloveFooD" />
                     <h2 className="projects__h2">I 	&lt;3 Food</h2>
-                    <p className="projects__p">MERN project created for showcase purposes</p>
+                    <p className="projects__p">MERN - showcase purposes (Outdated - 2019)</p>
                 </div>
                 </a>
                 <div className="projects__card">

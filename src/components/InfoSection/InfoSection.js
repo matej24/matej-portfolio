@@ -34,7 +34,7 @@ const InfoSection = ({ primary, dark, dark2}) => {
                                     Get to know me
                                 </h1>
                                 <p className="about__text" >
-                                    In future, I see myself as a senior ME<span className="about__colorLetter">R</span>N developer with proficiency in React.
+                                    In future, I see myself as a senior Full<span className="about__colorLetter">S</span>tack developer with proficiency in React.
                                     Currently I am looking to expand knowledge and bring my skill to higher level
                                 </p>
                                 <p className="about__text" >
@@ -43,10 +43,9 @@ const InfoSection = ({ primary, dark, dark2}) => {
                                 <ul className="about__list">
                                     <li>React</li>
                                     <li>NodeJS/Express</li>
-                                    <li>MongoDB</li>
                                 </ul>
                                 <p className="about__text" >
-                                But I am also interested in: Python, ML
+                                But I am also interested in: ML, Web3
                                 </p>                               
                                 <div className="about__btn__wrap">
                                    <LinkR to={dropDownSelected === "hr" ? "/cvmatejsekulic.doc" : "/cvmatejsekuliceng.doc"} target="_blank" download className="glow-on-hover button__download"  dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>Download my CV</LinkR>
